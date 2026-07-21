@@ -14,7 +14,9 @@ int main(void)
 {
     ft_putstr("Hello, World");
     write(1, "\n", 1);  //newline 
-    ft_putstr("WASSAP");
+    ft_putstr("WASSAP");//put it directly (same as Broooo)
     write(1, "\n", 1);  //newline
-    ft_putstr("Broooo");
+
+    char a[] = "Broooo";    
+    ft_putstr(&a[0]); //create char variable first (same as WASSAP)
 }
